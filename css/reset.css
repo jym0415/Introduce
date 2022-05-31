@@ -1,0 +1,30 @@
+/*reset*/
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: 'GmM','NBG','맑은고딕',sans-serif;
+    color: black;
+}
+ol, ul ,dt,dd{
+	list-style: none;
+}
+
+/*공통클래스*/
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.m-auto{margin: 0 auto;}
+.abs{position: absolute;}
+.rel{position: relative;}
+.d-flex{display: flex;}
+.justify-content-between{
+    justify-content: space-between;
+}
+.d-block{display: block;}
+.w-100{width: 100%;}
+.img-fluid{max-width: 100%;height: auto;}
+.text-center{text-align: center;}
+.align-center{align-items: center;}
