@@ -1,4 +1,5 @@
 $(document).ready(function(){
+<<<<<<< HEAD
     $('.menu-trigger').click(function(){
         $('#gnb').toggle();
 
@@ -15,3 +16,10 @@ $(document).ready(function(){
     });
 
 })
+=======
+    $('.gnbwrap').onClick(function(){
+        $('#gnb').removeClass('d-none');
+    })
+
+});
+>>>>>>> b5d45397a02b1b0a80628c293e5ee40286934e30

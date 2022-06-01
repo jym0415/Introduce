@@ -16,7 +16,10 @@ ol, ul ,dt,dd{
 .inner{
     max-width: 1400px;
     margin: 0 auto;
+<<<<<<< HEAD
     padding-top: 250px;
+=======
+>>>>>>> b5d45397a02b1b0a80628c293e5ee40286934e30
 }
 .m-auto{margin: 0 auto !important;}
 .abs{position: absolute !important;}
