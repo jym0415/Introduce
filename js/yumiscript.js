@@ -1,5 +1,4 @@
 $(document).ready(function(){
-<<<<<<< HEAD
     $('.menu-trigger').click(function(){
         $('#gnb').toggle();
 
@@ -15,11 +14,12 @@ $(document).ready(function(){
         })
     });
 
-})
-=======
-    $('.gnbwrap').onClick(function(){
-        $('#gnb').removeClass('d-none');
-    })
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 
-});
->>>>>>> b5d45397a02b1b0a80628c293e5ee40286934e30
+})
+
